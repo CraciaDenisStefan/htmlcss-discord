@@ -21,7 +21,7 @@
  }
 /* INIZIO HEADER */
  .container_header{
-    background-color: #404EED;
+    background-color: rgba(4, 89, 226, 0.945);
     padding: 20px;
  }
  .column_header{
@@ -47,16 +47,33 @@
  /* FINE HEADER */
  /* INIZIO  MAIN : INIZIO section 1   */
  .container_section1{
-    background-color: rgb(3, 3, 185);
-    padding: 20px;
+    background-image: url(../img/jumbo.png); 
+    background-size: cover;
+    padding: 70px 0 200px 0;
  }
  .row .column_section1{
-    background-color: rgb(236, 108, 204);
-    width: 50%;
-    height: 300px;
-    border-style: dashed;
+    width: 58%;
+    color: white;
     margin: 0 auto;
+    text-align: center;
  }
+ h1{
+    font-size: 60px;
+    margin: 40px 0;
+ }
+ p{
+    font-size: 18px;
+ }
+ .button_sec1{
+    font-size: 20px;
+    padding: 10px 30px;
+    margin-top: 20px;
+ }
+.discord_browser{
+    background-color: rgba(24, 24, 24, 0.877);
+    color: white;
+    margin-left: 20px;
+}
 /* MAIN : FINE section 1  */
 /* MAIN : INIZIO section 2 e 4  */
 .container_section2{
