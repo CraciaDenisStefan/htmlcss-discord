@@ -3,33 +3,46 @@
     margin: 0;
     box-sizing: border-box;
  }
+ body{
+    font-family: 'Poppins', sans-serif;
+ }
  /* questa row verra usata per tutti i contenitori */
  .row{
     width: 75%;
     display: flex;
     margin: 0 auto;
  }
+ /* il button sara uguale per tutti tranne per il colore */
+ button{
+    padding: 10px 15px;
+    border-radius: 30px;
+    border: none;
+    font-family: 'Poppins', sans-serif;
+ }
 /* INIZIO HEADER */
  .container_header{
-    background-color: rgb(191, 247, 242);
+    background-color: #404EED;
     padding: 20px;
  }
  .column_header{
-    background-color: rgb(255, 183, 49);
-    border-style: dashed;
     padding: 10px;
+    display: flex;
  }
  .column_header.logo{
     width: 25%;
  }
  .column_header.login{
     width: 25%;
-    text-align: end;
+    justify-content: flex-end;
+ }
+ .button_accedi{
+    background-color: white;
  }
  .column_header.link{
     width: 50%;
-    text-align: center;
-   
+    justify-content: space-around;
+    align-items: center;
+    color: white;
  }
  /* FINE HEADER */
  /* INIZIO  MAIN : INIZIO section 1   */
@@ -117,7 +130,7 @@
     justify-content: space-between;
     align-items: center;
 }
-button{
+.footer_2{
     background-color: pink;
     border-style: dashed;
     padding: 5px;
