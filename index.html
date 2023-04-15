@@ -7,8 +7,8 @@
     <title>Discord</title>
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@500&display=swap" rel="stylesheet">
-
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@500&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
     <link rel="stylesheet" href="./css/style.css">
 </head>
 <body>
@@ -27,7 +27,7 @@
                     <span>Assistenza</span>
                 </div>
                 <div class="column_header login">
-                    <button class="button_accedi"> Accedi </button>
+                    <button class="button_login"> Accedi </button>
                 </div>
             </div>
         </div>
@@ -40,7 +40,7 @@
                 <div class="column_section1">
                     <h1 class="h1_section1">Il tuo posto per parlare</h1>
                     <p>Che tu faccia parte di un club scolastico, gruppo di gamer,comunita artistica mondiale o semplicemente di un piccolo gruppo di amici che vuople passare il tempo assieme ,Discord rende piu facile chiacherare ogni giorno e ritrovarsi più spesso.</p>
-                    <button class="button_sec1 download"> &#129047; Scarica per Mac</button>
+                    <button class="button_sec1 download">&#129047; Scarica per Mac</button>
                     <button class="button_sec1 discord_browser">Apri Discord nel tuo browser</button>        
                 </div>
             </div>
@@ -61,7 +61,7 @@
         <!-- FINE SECTION 2 -->
         <!-- INIZIO SECTION 3 -->
         <div class="wawe">
-            <img class="wave up" src="./img/wave.svg" alt="">
+            <img class="wave up" src="./img/wave.svg" alt="wave_background">
         </div>
         <div class="container_section3"> 
                 <div class="row">
@@ -75,7 +75,7 @@
                 </div>
         </div>
         <div class="wawe">
-            <img class="wave down" src="./img/wave.svg" alt="">
+            <img class="wave down" src="./img/wave.svg" alt="wave_background">
         </div>
         <!-- FINE SECTION 3 -->
         <!-- INIZIO SECTION 4 uguale alla section 2 -->
@@ -93,7 +93,7 @@
         <!-- FINE SECTION 4 uguale alla section 2 -->
         <!-- INIZIO SECTION 5  stesso contenitore della section 3-->
         <div class="wawe">
-            <img class="wave up" src="./img/wave.svg" alt="">
+            <img class="wave up" src="./img/wave.svg" alt="wave_background">
         </div>
         <div class="container_section5">
             <div class="row">
@@ -112,28 +112,82 @@
         <!-- FOOTER parte alta con 5 colonne -->
         <div class="container_footer">
             <div class="row footer">
-                <div class="column_footer_uno">
+                <!-- Inizio footer one -->
+                <div class="column_footer_one">
+                    <h1 class="h1_column_footer_one">Il tuo posto per parlare</h1>
+                    <div id="language">
+                        <img class="logo_italiano" src="./img/ita.png" alt="logo_italian">
+                        <span>Italiano &#709;</span> 
+                    </div>
+                    <div>
+                        <span class="social_media"><i class="fa-brands fa-twitter" style="color: #fcfcfc;"></i></span>
+                        <span class="social_media"><i class="fa-brands fa-instagram" style="color: #ffffff;"></i></span>
+                        <span class="social_media"><i class="fa-brands fa-facebook" style="color: #ffffff;"></i></span>
+                        <span class="social_media"><i class="fa-brands fa-youtube" style="color: #ffffff;"></i></span>
+                    </div>              
                 </div>
-                <div class="column_footer_due">
+                <!-- Fine footer one -->
+                <!-- Inizio footer info -->
+                <div class="column_footer_info">
+                    <ul class="list_footer">
+                        <li class="title_list_footer">Prodotto</li>
+                        <li>Scarica</li>
+                        <li>Perchè Discord</li>
+                        <li>Nitro</li>
+                        <li>Sicurezza</li>
+                        <li>Assistenza</li>
+                    </ul>
                 </div>
-                <div class="column_footer_due">
+                <div class="column_footer_info">
+                    <ul class="list_footer">
+                        <li class="title_list_footer">Compagnia</li>
+                        <li>Chi siamo</li>
+                        <li>Lavora con noi</li>
+                        <li>Marchio</li>
+                        <li>Redazione</li>
+                        <li>Negozio</li>
+                    </ul>
                 </div>
-                <div class="column_footer_due">
+                <div class="column_footer_info">
+                    <ul class="list_footer">
+                        <li class="title_list_footer">Risorse</li>
+                        <li>Scarica</li>
+                        <li>Perchè Discordd</li>
+                        <li>Nitro</li>
+                        <li>Sicurezza</li>
+                        <li>Assistenza</li>
+                        <li>Scarica</li>
+                        <li>Perchè Discordd</li>
+                        <li>Nitro</li>
+                        <li>Sicurezza</li>
+                        <li>Assistenza</li>
+                        <li>Assistenza</li>
+                    </ul>
                 </div>
-                <div class="column_footer_due">
+                <div class="column_footer_info">
+                    <ul class="list_footer">
+                        <li class="title_list_footer">Norme</li>
+                        <li>Scarica</li>
+                        <li>Perchè Discord</li>
+                        <li>Nitro</li>
+                        <li>Sicurezza</li>
+                        <li>Assistenza</li>
+                    </ul>
                 </div>
             </div>
-            <hr>
+            <!-- Fine footer info -->
+           <!-- FINE parte alta con 5 colonne -->
+
             <!-- FOOTER parte bassa con due colonne con i bottoni -->
             <div class="row button">
                 <div class="column_button">
-                    <button class="footer_2 logo">Logo</button> 
+                    <img src="./img/logo.svg" alt="">
                 </div>
                 <div class="column_button">    
-                    <button class="footer_2 button">Bottone</button>    
+                    <button class="button_signin">Registrati</button>    
                 </div>     
             </div>
-            <hr>
+            <!-- FINE parte bassa con due colonne con i bottoni -->
         </div>
     </footer>
 </body>

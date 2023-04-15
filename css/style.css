@@ -4,7 +4,7 @@
     box-sizing: border-box;
  }
  body{
-    font-family: 'Poppins', sans-serif;
+    font-family: 'Roboto', sans-serif;
  }
  /* questa row verra usata per tutti i contenitori */
  .row{
@@ -17,7 +17,7 @@
     padding: 10px 15px;
     border-radius: 30px;
     border: none;
-    font-family: 'Poppins', sans-serif;
+    font-family: 'Roboto', sans-serif;
  }
 /* INIZIO HEADER */
  .container_header{
@@ -35,7 +35,7 @@
     width: 25%;
     justify-content: flex-end;
  }
- .button_accedi{
+ .button_login{
     background-color: white;
  }
  .column_header.link{
@@ -67,7 +67,7 @@
  .button_sec1{
     font-size: 20px;
     padding: 10px 30px;
-    margin-top: 20px;
+    margin-top: 30px;
  }
 .discord_browser{
     background-color: rgba(24, 24, 24, 0.877);
@@ -102,7 +102,6 @@
     transform: scale(-1);
 }
 .container_section3, .container_section5{
-    width: 100%;
     background-color: rgba(0, 0, 0, 0.1);
  }
 .row .column_section3.left{
@@ -115,12 +114,13 @@
 /* MAIN : FINE section 3 */
 /* MAIN : INIZIO section 5 usando contenitore della sezione 3 */
 .row .column_section5{
-    width: 60%;
+    width: 70%;
     text-align: center;
     margin: 0 auto;
 }
 .h1_section5{
-    margin: 50px 0 10px 0;
+    font-size: 50px;
+    margin: 50px 0 20px 0;
 }
 #h2_section5{
     background-image: url(../img/stars.svg);
@@ -136,37 +136,59 @@
 /* FINE MAIN : FINE section 5 */
 /* INIZIO FOOTER parte alta , riga e colonne ( 5 colonne ) */
 .container_footer{
-    background-color: rgb(34, 34, 34);
+    background-color: #23272A;
     padding-top: 20px;
 }
+/* Inizio footer one */
 .row.footer{
-    border-style: dashed;
     margin-bottom: 30px;
 }
-.column_footer_uno{
-    width: 30%;
-    border-style: dashed;
-    height: 500px;
-    background-color: rgb(221, 114, 123);
+.column_footer_one{
+    width: 20%;
+    margin-right: 10%;
+
 }
-.column_footer_due{
+.h1_column_footer_one{
+    color: rgba(132, 139, 243, 0.877);
+    margin-bottom: 20px;
+}
+#language{
+    color: white;
+    font-size: 10px;
+    margin-bottom: 15px;
+}
+.logo_italiano{
+    width: 20px;
+    vertical-align:middle;
+}
+.social_media{
+    margin-right: 15px;
+}
+/* Fine footer one */
+/* Inizio footer info */
+.column_footer_info{
     width: calc(70% / 4);
-    background-color: rgb(87, 158, 155);
-    border-style: dashed;
-    border-color: white;
+    line-height: 35px;
 }
+.column_footer_info .list_footer{
+    color: white;
+    list-style: none;
+}
+.list_footer .title_list_footer{
+  color: rgba(132, 139, 243, 0.877);
+}
+/* Fine footer two */
 /* FOOTER fine parte alta delle 5 colonne */
 /* INIZIO FOOTER parte bassa ,i bottoni */
 .row.button{
     margin-top: 20px;
-    background-color: rgb(0, 255, 179);
+    border-top: 1px solid rgba(132, 139, 243, 0.397);
+    padding: 30px 0 50px 0;
     justify-content: space-between;
     align-items: center;
 }
-.footer_2{
-    background-color: pink;
-    border-style: dashed;
-    padding: 5px;
-    margin: 20px 0;
+.button_signin{
+    background-color: rgba(132, 139, 243, 0.877);
+    color: white;
 }
 /* FOOTER FINE */
